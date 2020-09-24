@@ -65,7 +65,7 @@ export default function(Vue, { router, head, isClient }) {
     {
       key: "author",
       name: "author",
-      content: "Paul Ozyzniewski"
+      content: "SK"
     },
     {
       key: "description",

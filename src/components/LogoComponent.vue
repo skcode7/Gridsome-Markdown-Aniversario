@@ -1,5 +1,5 @@
 <template>
-  <g-link to="/" class="logo">
+  <g-link to="/blog" class="logo">
     <span class="sr-only">{{ desc }}</span>
     <component :is="showCorrectLogo"></component>
   </g-link>

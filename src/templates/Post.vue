@@ -5,19 +5,19 @@
         <div class="header__wrapper">
           <h1 class="header__title display-xl">{{ $page.post.title }}</h1>
           <hr class="header__divider" />
-          <div class="header__summary">{{ $page.post.excerpt }}</div>
+          <div class="header__summary">{{ $page.post.song }}</div>
         </div>
       </header>
 
       <article class="post__article container container--sm">
         <p class="post__details">
-          {{ $page.post.category }} / {{ $page.post.author }} /
+          {{ $page.post.category }} /
           {{ formatDate($page.post.created_at) }}
         </p>
 
         <VueRemarkContent class="post__content" />
 
-        <BaseLinkLikeButton class="post__backBtn" to="/blog">Back to Blog</BaseLinkLikeButton>
+        <BaseLinkLikeButton class="post__backBtn" to="/blog">Regresar</BaseLinkLikeButton>
       </article>
     </main>
   </Layout>
@@ -31,6 +31,7 @@ query Post ($id: ID!) {
     title_color,
     title_meta,
     excerpt,
+    song,
     author,
     created_at,
     category,

@@ -31,7 +31,7 @@
         </nav>
 
         <div class="header__socialIcons header__socialIcons--mobile">
-          <SocialIcons parent-component="the Header" />
+          <!-- <SocialIcons parent-component="the Header" /> -->
         </div>
       </div>
     </div>
@@ -40,25 +40,25 @@
 
 <script>
 import LogoComponent from "@/components/LogoComponent.vue"
-import SocialIcons from "@/components/SocialIcons.vue"
+// import SocialIcons from "@/components/SocialIcons.vue"
 
 import { gsap, Sine, Power1 } from "gsap"
 
 export default {
   components: {
-    LogoComponent,
-    SocialIcons
+    LogoComponent
+    // SocialIcons
   },
   data() {
     return {
       ariaExpanded: false,
       pages: [
         {
-          name: "Home",
+          name: "Inicio",
           url: "/"
         },
         {
-          name: "Blog",
+          name: "Historia",
           url: "/blog/"
         }
       ]

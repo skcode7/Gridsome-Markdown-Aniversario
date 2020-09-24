@@ -3,13 +3,12 @@
     <div class="footer__inner container">
       <LogoComponent class="footer__logo" version="fullWhite" desc="Footer Logo" />
 
-      <div class="footer__socialIcons">
+      <!-- <div class="footer__socialIcons">
         <SocialIcons parent-component="the Footer" />
-      </div>
+      </div> -->
 
-      <p class="footer__copyright">
-        <!-- &copy; {{ thisYear }}.
-        <g-link to="/">HOME_PAGE_NAME</g-link> -->
+      <p class="footer__copyright">&copy; SK 25/IX/{{ thisYear }}.</p>
+      <p>
         Created by
         <a href="https://www.paulthedeveloper.com" target="_blank" rel="noopener noreferrer">
           Paul Ozyzniewski
@@ -23,12 +22,12 @@
 
 <script>
 import LogoComponent from "@/components/LogoComponent.vue"
-import SocialIcons from "@/components/SocialIcons.vue"
+// import SocialIcons from "@/components/SocialIcons.vue"
 
 export default {
   components: {
-    LogoComponent,
-    SocialIcons
+    LogoComponent
+    // SocialIcons
   },
   data() {
     return {

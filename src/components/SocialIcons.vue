@@ -31,7 +31,7 @@ export default {
         },
         {
           link: "https://github.com/OziOcb/Gridsome-and-Markdown-Starter-Kit",
-          svg: "linkedin"
+          svg: "twitter"
         }
       ]
     }

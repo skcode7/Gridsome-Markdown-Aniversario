@@ -80,7 +80,7 @@ import { gsap } from "gsap"
 
 export default {
   metaInfo: {
-    title: "Blog"
+    title: "Historia"
   },
   components: {
     Pager
