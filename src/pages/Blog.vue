@@ -2,7 +2,7 @@
   <layout>
     <main role="main" class="blog container">
       <header>
-        <h1 class="blog__title display-lg">Our Stories</h1>
+        <h1 class="blog__title display-lg">10 años de historia</h1>
         <hr class="blog__divider" />
       </header>
 
@@ -30,7 +30,7 @@
           </p>
 
           <BaseLinkLikeButton class="blogCard__btn" :to="edge.node.path">
-            Read the article
+            Leer más ...
           </BaseLinkLikeButton>
         </div>
       </article>
@@ -44,7 +44,7 @@
 
 <page-query>
 query Post($page:Int) {
-  post: allPost(perPage: 6, page: $page, order: DESC, sortBy: "created_at") @paginate  {
+  post: allPost(perPage: 16, page: $page, order: ASC, sortBy: "created_at") @paginate  {
     totalCount
     pageInfo {
       totalPages
