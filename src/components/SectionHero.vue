@@ -3,7 +3,7 @@
     <div class="hero__contentWrapper">
       <p class="hero__heading">Bienvenido</p>
       <h1 class="hero__extraLead">
-        La
+        A la
         <strong>historia de nuestro amor</strong>
         en imágenes!
       </h1>
